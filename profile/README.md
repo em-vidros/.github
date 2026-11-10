@@ -2,7 +2,7 @@
 
 # EM Vidros
 
-A EM Vidros beneficia e tempera vidro e atende clientes de todo o Norte e Nordeste. A matriz fica em Raposa, no Maranhão, e produz em escala industrial. A filial de Imperatriz atende a região e faz a ponte com a logística.
+A EM Vidros beneficia e tempera vidro e atende clientes de todo o Norte e Nordeste. A matriz fica em Raposa, no Maranhão, e produz em escala industrial. A filial de Imperatriz atende a região.
 
 Este é o perfil do time de desenvolvimento da empresa. Aqui estão os sistemas que construímos para a operação e o jeito como trabalhamos.
 
