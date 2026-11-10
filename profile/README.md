@@ -1,53 +1,41 @@
-![Banner da Em Vidros](./banner.png)
+![Banner da EM Vidros](./banner.png)
 
-# EM Hub
+# EM Vidros
 
-Bem-vindo ao **EM Hub**, o núcleo de inteligência de dados e estratégia da **EM Vidros**.
+A EM Vidros beneficia e tempera vidro e atende clientes de todo o Norte e Nordeste. A matriz fica em Raposa, no Maranhão, e produz em escala industrial. A filial de Imperatriz atende a região.
 
-Este repositório centraliza a documentação técnica, a arquitetura de dados e os códigos responsáveis por transformar nossa operação industrial em uma cultura *data-driven*.
+Este é o perfil do time de desenvolvimento da empresa. Aqui estão os sistemas que construímos para a operação e o jeito como trabalhamos.
 
-## 🏭 Sobre a EM Vidros
+## O que construímos
 
-A EM Vidros é referência no beneficiamento e têmpera de vidros, com uma operação robusta e capilaridade logística que atende todo o norte/nordeste. Nossa estrutura é dividida estrategicamente:
+Cada sistema nasce de um problema que a operação já tinha, e não de uma ferramenta que queríamos usar.
 
-* **Matriz (Raposa - MA):** Foco em produção industrial de alta escala e logística.
-* **Filial (Imperatriz - MA):** Hub estratégico para atendimento regional.
+- **Atendimento.** A tela e a API com que a equipe responde clientes no WhatsApp, e um bot que encaminha cada cliente para a filial certa.
+- **Indicadores.** Painéis de metas e comissões que substituem planilhas montadas à mão.
+- **Agentes de IA.** Assistentes que ajudam consultores e a expedição a montar pedidos e a responder mais rápido.
+- **Site e marketing.** O site institucional e a automação do conteúdo de redes sociais.
 
-Apesar do sucesso operacional, o alto volume de dados gerado por essas unidades encontra-se disperso. O desafio atual é conectar essas pontas para garantir que a diretoria tenha uma visão única e padronizada de custos, eficiência e vendas em toda a rede.
+A maior parte do código é privada. Os repositórios públicos estão na lista da organização.
 
-## 🎯 O Que Queremos Resolver?
+## Como trabalhamos
 
-O **EM Hub** nasce para resolver a interseção entre ferramentas inadequadas e a necessidade de decisões rápidas. Nosso objetivo principal é eliminar a dependência de conhecimento onde apenas especialistas no ERP sabem extrair a informação correta.
+Somos poucas pessoas, então usamos só o processo que ajuda.
 
-Atuamos em três pilares estratégicos:
+<p align="center">
+  <img src="./ciclo-do-time.svg" alt="Ciclo de duas semanas. Segunda, planejamento de 30 minutos. Todo dia, check-in escrito de 5 minutos. Na última sexta, revisão e retro de 45 minutos" width="760">
+</p>
 
-1.  **Padronização Semântica:** Definir oficialmente o que é *Lucro*, *Custo*, *Eficiência* e *Perda* para a empresa, evitando ambiguidades entre departamentos.
-2.  **Monitoramento Contínuo:** Substituir relatórios estáticos e manuais por indicadores automáticos que mostram a saúde da produção por máquina e turno.
-3.  **Inteligência Preditiva:** Evoluir para análises que antecipam demandas e identificam riscos operacionais antes que eles aconteçam.
+- **Ciclos de duas semanas.** Planejamos na segunda e fechamos na sexta, mostrando o que ficou pronto rodando.
+- **Issue pequena, com critério de aceite.** Cada tarefa diz o que fazer, como saber que acabou e o que fica de fora. Cada uma tem uma urgência, de urgente a baixa.
+- **Uma coisa por vez.** Cada pessoa tem uma issue em andamento.
+- **Pull request pequeno.** Toda mudança passa por testes automáticos e por revisão de uma pessoa do time.
+- **Deploy automático.** O que entra na `main` e passa pela CI sobe sozinho para produção, com volta automática se a versão nova falhar.
 
-## 🚀 Como vamos colocar em prática?
+Quem faz parte da organização encontra o processo completo no repositório `processo-agil` e a trilha de onboarding do Atend no repositório `atend`.
 
-Para garantir entrega de valor imediato sem comprometer a governança futura, dividimos a execução em duas fases:
+## Contato
 
-### Fase 1: Homologação (O "Agora")
-*Foco: Velocidade e Validação.*
-Criamos um ambiente leve para validar as regras de negócio junto à diretoria. O objetivo é garantir que os números estejam certos antes de automatizar.
-* **Ação:** Scripts Python extraem dados e geram visualizações no **Notion**.
-* **Entrega:** Portais de indicadores validados para a Diretoria e Produção.
-
-### Fase 2: Produção (O "Futuro")
-*Foco: Escala e Governança.*
-Com as métricas validadas, migramos para uma infraestrutura robusta de Engenharia de Dados.
-* **Ação:** Implementação de Data Warehouse (BigQuery) e orquestradores (Airflow/Estuary).
-* **Entrega:** Dashboards oficiais no Power BI, governança com dbt e APIs de predição.
-
-> **Fluxo de Dados Final:**
-> ERP Pegasus → Estuary → Google Cloud Storage → BigQuery → dbt → Power BI.
-
-## 📞 Contato e Localização
-
-A sede da EM Vidros fica na **Rua do Campo, 100 - Inhaúma, Raposa - MA**.
-
-* **Dúvidas de Dados:** Abra uma *Issue* neste repositório.
-* **Comercial/Geral:** `contato@emvidros.com.br` ou `(98) 3131-4000`.
-* **Site:** [emvidros.com.br](http://www.emvidros.com.br)
+- Dúvidas sobre os sistemas: abra uma issue no repositório do sistema, se você tiver acesso.
+- Comercial e geral: `contato@emvidros.com.br` ou `(98) 3131-4000`.
+- Site: [emvidros.com.br](http://www.emvidros.com.br)
+- Sede: Rua do Campo, 100, Inhaúma, Raposa, MA.
