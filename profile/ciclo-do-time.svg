@@ -10,8 +10,8 @@
     <text x="145" y="122" font-size="18" font-weight="700" fill="#1f2933">Planejamento</text>
     <text x="145" y="154">Olhamos o que sobrou</text>
     <text x="145" y="174">e puxamos issues da coluna</text>
-    <text x="145" y="194">Pronto até caber nos pontos</text>
-    <text x="145" y="214">que o time fechou antes</text>
+    <text x="145" y="194">Pronto, da mais urgente</text>
+    <text x="145" y="214">para a menos, até encher</text>
 
     <rect x="315" y="60" width="250" height="190" rx="14" fill="#f3f6f4" stroke="#cfd8d3" stroke-width="2"/>
     <text x="440" y="92" font-size="13" font-weight="700" fill="#1a7f4b">TODO DIA, 5 MINUTOS</text>

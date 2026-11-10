@@ -26,7 +26,7 @@ Somos poucas pessoas, então usamos só o processo que ajuda.
 </p>
 
 - **Ciclos de duas semanas.** Planejamos na segunda e fechamos na sexta, mostrando o que ficou pronto rodando.
-- **Issue pequena, com critério de aceite.** Cada tarefa diz o que fazer, como saber que acabou e o que fica de fora. Usamos só três tamanhos, 1, 3 e 8 pontos.
+- **Issue pequena, com critério de aceite.** Cada tarefa diz o que fazer, como saber que acabou e o que fica de fora. Cada uma tem uma urgência, de urgente a baixa.
 - **Uma coisa por vez.** Cada pessoa tem uma issue em andamento.
 - **Pull request pequeno.** Toda mudança passa por testes automáticos e por revisão de uma pessoa do time.
 - **Deploy automático.** O que entra na `main` e passa pela CI sobe sozinho para produção, com volta automática se a versão nova falhar.
