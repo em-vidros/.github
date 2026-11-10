@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 300" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif">
+  <title>Ciclo de duas semanas</title>
+  <desc>Segunda, planejamento do ciclo. Todo dia, uma issue por pessoa em andamento e um check-in escrito. Última sexta, revisão com demonstração e retrospectiva curta.</desc>
+  <rect width="880" height="300" fill="#ffffff"/>
+  <g font-size="13" fill="#5b6b64" text-anchor="middle">
+    <text x="440" y="30" font-size="16" font-weight="700" fill="#1f2933">Um ciclo dura duas semanas, de segunda a sexta</text>
+
+    <rect x="20" y="60" width="250" height="190" rx="14" fill="#e8f5ee" stroke="#1a7f4b" stroke-width="3"/>
+    <text x="145" y="92" font-size="13" font-weight="700" fill="#1a7f4b">SEGUNDA, 30 MINUTOS</text>
+    <text x="145" y="122" font-size="18" font-weight="700" fill="#1f2933">Planejamento</text>
+    <text x="145" y="154">Olhamos o que sobrou</text>
+    <text x="145" y="174">e puxamos issues da coluna</text>
+    <text x="145" y="194">Pronto até caber nos pontos</text>
+    <text x="145" y="214">que o time fechou antes</text>
+
+    <rect x="315" y="60" width="250" height="190" rx="14" fill="#f3f6f4" stroke="#cfd8d3" stroke-width="2"/>
+    <text x="440" y="92" font-size="13" font-weight="700" fill="#1a7f4b">TODO DIA, 5 MINUTOS</text>
+    <text x="440" y="122" font-size="18" font-weight="700" fill="#1f2933">Check-in escrito</text>
+    <text x="440" y="154">No fim da manhã, cada pessoa</text>
+    <text x="440" y="174">escreve na issue: o que fiz,</text>
+    <text x="440" y="194">o que faço agora, o que me</text>
+    <text x="440" y="214">trava. Uma issue por vez.</text>
+
+    <rect x="610" y="60" width="250" height="190" rx="14" fill="#e8f5ee" stroke="#1a7f4b" stroke-width="3"/>
+    <text x="735" y="92" font-size="13" font-weight="700" fill="#1a7f4b">ÚLTIMA SEXTA, 45 MINUTOS</text>
+    <text x="735" y="122" font-size="18" font-weight="700" fill="#1f2933">Revisão e retro</text>
+    <text x="735" y="154">Cada um mostra o que entregou</text>
+    <text x="735" y="174">rodando. Depois, três perguntas:</text>
+    <text x="735" y="194">o que manter, o que parar,</text>
+    <text x="735" y="214">o que tentar no próximo ciclo.</text>
+  </g>
+  <text x="440" y="280" text-anchor="middle" font-size="13" fill="#5b6b64">Coisa nova no meio do ciclo vira issue em Triagem e espera a próxima segunda.</text>
+</svg>
